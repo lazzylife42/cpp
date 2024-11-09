@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smonte-e <smonte-e@student.42.fr>          +#+  +:+       +#+        */
+/*   By: smonte-e <smonte-e@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/03 22:20:15 by smonte-e          #+#    #+#             */
-/*   Updated: 2024/06/04 10:32:39 by smonte-e         ###   ########.fr       */
+/*   Updated: 2024/11/09 18:06:40 by smonte-e         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 #include "color.hpp"
 
 // ./PmergeMe "$(jot -r 3000 1 1000 | tr '\n' ' ')"
+// ./PmergeMe "$(shuf -i 1-1000 -n 3000 | tr '\n' ' ')"
 
 int main(int argc, char** argv)
 {
